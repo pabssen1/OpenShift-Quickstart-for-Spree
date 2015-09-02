@@ -55,5 +55,5 @@ gem 'therubyracer'
 gem 'rmagick'
 
 gem 'spree', '2.2.2'
-gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: 'master'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
